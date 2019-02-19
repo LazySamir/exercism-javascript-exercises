@@ -4,5 +4,3 @@ export const age = (planet, seconds) => {
   const planetYears = Math.round((planetSeconds / 31557600)* 100) / 100;
   return planetYears
 }
-
-// return in years 2dp
